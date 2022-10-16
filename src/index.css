@@ -52,6 +52,9 @@ li {
 .friend-list {
   padding: 0px;
 }
+.avatar {
+  margin: auto;
+}
 .transaction-history {
   border-collapse: collapse;
   width: 100%;
