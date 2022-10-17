@@ -38,12 +38,26 @@ code {
 }
 .item {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
   list-style: none;
   padding: 10px;
   border-style: solid;
   border-color: black;
-  background-color: aliceblue;
+}
+.online, .offline {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
 }
 li {
   list-style: none;
@@ -52,9 +66,7 @@ li {
 .friend-list {
   padding: 0px;
 }
-.avatar {
-  margin: auto;
-}
+
 .transaction-history {
   border-collapse: collapse;
   width: 100%;
